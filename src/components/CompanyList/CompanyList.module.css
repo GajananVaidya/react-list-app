@@ -1,0 +1,33 @@
+.ListWrapper {
+    padding: 20px;
+}
+
+.ListWrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ListWrapper table thead tr td {
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.ListWrapper table tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ListWrapper table tbody tr:nth-child(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+
+
+.ListWrapper table tbody tr:hover {
+    background-color: rgba(0,0,0,.075);
+}
+
+.ResultDiv {
+    margin-bottom: 10px;
+    text-align: center;
+}
